@@ -38,7 +38,7 @@ public class Staff_Test
 		listOfStaff.add(RebeccaPearson);
 		listOfStaff.add(KatePearson);
 		listOfStaff.add(RandallPearson);
-		listOfStaff.add(KevinPearson);
+		listOfStaff.add(KevinPearson); 
 
 	
 	}
@@ -46,13 +46,13 @@ public class Staff_Test
 	@Test
 	public void test() 
 	{
-		int amount = 0;
+		double amount = 0;
 		for(Staff x: listOfStaff)
 		{
 			amount += x.getSalary();
 		}
 		
-		double average = amount / 5.0;
+		double average = amount / listOfStaff.size();
 		
 		assertEquals(average, 152400.00, 0.01);
 		

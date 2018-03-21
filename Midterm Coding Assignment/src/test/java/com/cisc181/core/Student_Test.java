@@ -37,7 +37,7 @@ public class Student_Test
 		Semester Spring = new Semester(SPRINGUUID, new Date(2018, 2, 5), new Date(2018, 5, 24));
 		Semester Fall = new Semester(FALLUUID, new Date(2017, 8, 29), new Date(2017, 12, 16));
 		
-		courses.add(course1);
+		courses.add(course1); 
 		courses.add(course2);
 		courses.add(course3);
 		

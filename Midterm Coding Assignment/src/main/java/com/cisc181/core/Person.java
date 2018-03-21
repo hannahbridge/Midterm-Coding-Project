@@ -16,7 +16,7 @@ public abstract class Person implements java.io.Serializable
 	private String MiddleName;
 	private String LastName;
 	private String address;
-	private String phone_number;
+	private String phone_number; 
 	private String email_address;
 
 	public String getFirstName() 
